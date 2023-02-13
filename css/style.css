@@ -109,7 +109,7 @@ p {
     width: 129px;
     height: 253px;
     border-radius: 20px;
-    background-image: url("../img/hero-phone.png");
+    background-image: url("../img/hero-phone.webp");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 129px 261px;
@@ -117,12 +117,12 @@ p {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .header__phone {
-        background-image: url("../img/hero-phone@2x.png");
+        background-image: url("../img/hero-phone@2x.webp");
     }
 }
 @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
     .header__phone {
-        background-image: url("../img/hero-phone@3x.png");
+        background-image: url("../img/hero-phone@3x.webp");
     }
 }
 
@@ -157,25 +157,25 @@ p {
     background-size: contain;
 }
 .google-play {
-    background-image: url("../img/google-play.png");
+    background-image: url("../img/google-play.webp");
 }
 .app-store {
-    background-image: url("../img/app-store.png");
+    background-image: url("../img/app-store.webp");
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .google-play {
-        background-image: url("../img/google-play@2x.png");
+        background-image: url("../img/google-play@2x.webp");
     }
     .app-store {
-        background-image: url("../img/app-store@2x.png");
+        background-image: url("../img/app-store@2x.webp");
     }
 }
 @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
     .google-play {
-        background-image: url("../img/google-play@3x.png");
+        background-image: url("../img/google-play@3x.webp");
     }
     .app-store {
-        background-image: url("../img/app-store@3x.png");
+        background-image: url("../img/app-store@3x.webp");
     }
 }
 
@@ -193,7 +193,7 @@ p {
     position: absolute;
     width: 160px;
     height: 338px;
-    background: linear-gradient(180deg, rgba(61, 57, 108, 0) 70.31%, #3D396C 99%), url(../img/restaurants-phone.png);
+    background: linear-gradient(180deg, rgba(61, 57, 108, 0) 70.31%, #3D396C 99%), url(../img/restaurants-phone.webp);
     background-size: cover;
     transform: translateX(-50%);   
 }
@@ -225,17 +225,17 @@ p {
 .plautform__map {
     width: 158px;
     height: 67.64px;
-    background-image: url("../img/map.png");
+    background-image: url("../img/map.webp");
     background-size: contain;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .plautform__map {
-        background-image: url("../img/map@2x.png");
+        background-image: url("../img/map@2x.webp");
     }
 }
 @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
     .plautform__map {
-        background-image: url("../img/map@3x.png");
+        background-image: url("../img/map@3x.webp");
     }
 }
 
@@ -260,17 +260,17 @@ p {
     right: 0;
     width: 126px;
     height: 165px;
-    background: linear-gradient(180deg, rgba(255, 178, 23, 0) 82.72%, rgba(255, 177, 20, 0.84) 94.69%, #FFB112 98.56%), url("../img/girl.png");
+    background: linear-gradient(180deg, rgba(255, 178, 23, 0) 82.72%, rgba(255, 177, 20, 0.84) 94.69%, #FFB112 98.56%), url("../img/girl.webp");
     background-size: contain !important;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .delivery__girl {
-        background: linear-gradient(180deg, rgba(255, 178, 23, 0) 82.72%, rgba(255, 177, 20, 0.84) 94.69%, #FFB112 98.56%), url("../img/girl@2x.png");
+        background: linear-gradient(180deg, rgba(255, 178, 23, 0) 82.72%, rgba(255, 177, 20, 0.84) 94.69%, #FFB112 98.56%), url("../img/girl@2x.webp");
     }
 }
 @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
     .delivery__girl {
-        background: linear-gradient(180deg, rgba(255, 178, 23, 0) 82.72%, rgba(255, 177, 20, 0.84) 94.69%, #FFB112 98.56%), url("../img/girl@3x.png");
+        background: linear-gradient(180deg, rgba(255, 178, 23, 0) 82.72%, rgba(255, 177, 20, 0.84) 94.69%, #FFB112 98.56%), url("../img/girl@3x.webp");
     }
 }
 
@@ -345,7 +345,7 @@ p {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url(../img/reviews-bg.png);
+    background-image: url(../img/reviews-bg.webp);
     background-position: right;
 }
 
