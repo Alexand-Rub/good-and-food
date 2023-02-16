@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="/fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>    
+    <link rel="preload" href="/fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>    
+    <link rel="preload" href="/fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,17 +17,17 @@
         <div class="container">
             <ul class="nav">
                 <li class="nav__item nav__cycle svg-btn"></li>
-                <li class="nav__item tell svg-btn">
-                    <a href="#" class="header__link tell svg-btn"></a>
+                <li class="nav__item">
+                    <a href="#" class="nav__link tell svg-btn"></a>
                 </li>
-                <li class="nav__item mail svg-btn">
-                    <a href="#" class="header__link mail svg-btn"></a>
+                <li class="nav__item">
+                    <a href="#" class="nav__link mail svg-btn"></a>
                 </li>
-                <li class="nav__item login svg-btn">
-                    <a href="#" class="header__link login svg-btn"></a>
+                <li class="nav__item">
+                    <a href="#" class="nav__link login svg-btn"><span>Войти</span></a>
                 </li>
-                <li class="nav__item partner svg-btn">
-                    <a href="#" class="header__link partner svg-btn"></a>
+                <li class="nav__item">
+                    <a href="#" class="nav__link partner svg-btn"><span>Стать партнером</span></a>
                 </li>
             </ul>
             <div class="header__phone"></div>
@@ -39,35 +42,54 @@
                     <a href="#" class="social__link fb svg-btn"></a>
                 </li>
             </ul>
+            <div class="bubble bubble-1"></div>
+                <div class="bubble bubble-2"></div>
+                <div class="bubble bubble-3"></div>
+                <div class="bubble bubble-4"></div>
+                <div class="bubble bubble-5"></div>
+                <div class="bubble bubble-6"></div>
+                <div class="bubble bubble-7"></div>
+                <div class="bubble bubble-8"></div>
+                <div class="bubble bubble-9"></div>
+                <div class="bubble bubble-10"></div>
+                <div class="bubble bubble-11"></div>
+                <div class="bubble bubble-12"></div>
+                <div class="bubble bubble-13"></div>
+                <button class="bubble bubble-14"></button>
         </div>
     </header>
     <section class="download container">
-        <h2 class="download__title title"><span>где</span> скачать 🚀</h2>
-        <p class="download__text text">Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа</p>
-        <div class="download__list">
-            <a href="http://" class="download__link google-play"></a>
-            <a href="http://" class="download__link app-store"></a>
+        <div class="download__phone"></div>
+        <div class="download__block">
+            <h2 class="download__title title"><span>где</span> скачать 🚀</h2>
+            <p class="download__text text">Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа</p>
+            <div class="download__list">
+                <a href="http://" class="download__link google-play"></a>
+                <a href="http://" class="download__link app-store"></a>
+            </div>
         </div>
     </section>
     <section class="restaurants">
         <div class="container">
-            <div class="restaurants__phone"></div>
-            <h2 class="restaurants__title title"><span>вАШИ</span> ЛЮБИМЫЕ&#160;РЕСТОРАНЫ&#160;онлайн&#160;📱</h2>
-            <p class="restaurants__text text">Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа</p>
-            <div class="count">
-                <div class="count__item">
-                    <p class="count__num">1740 +</p>
-                    <p class="count__thing">Скачиваний</p>
-                </div>
-                <div class="count__item">
-                    <p class="count__num">12 +</p>
-                    <p class="count__thing">Ресторанов</p>
-                </div>
-                <div class="count__item">
-                    <p class="count__num">ДО 90%</p>
-                    <p class="count__thing">Cкидки</p>
+            <div class="restaurants__block">
+                <h2 class="restaurants__title title"><span>вАШИ</span> ЛЮБИМЫЕ&#160;РЕСТОРАНЫ&#160;онлайн&#160;📱</h2>
+                <p class="restaurants__text text">Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с&#160;электронным меню, доставкой и возможностью предзаказа</p>
+                <div class="count">
+                    <div class="count__item">
+                        <p class="count__num">1740 +</p>
+                        <p class="count__thing">Скачиваний</p>
+                    </div>
+                    <div class="count__item">
+                        <p class="count__num">12 +</p>
+                        <p class="count__thing">Ресторанов</p>
+                    </div>
+                    <div class="count__item">
+                        <p class="count__num">ДО 90%</p>
+                        <p class="count__thing">Cкидки</p>
+                    </div>
                 </div>
             </div>
+            <div class="restaurants__phone"></div>
         </div>
     </section>
     <section class="plautform container">
@@ -78,8 +100,10 @@
     <section class="delivery">
         <div class="container">
             <div class="delivery__girl"></div>
-            <h2 class="delivery__title title">у нАС ЕСТЬ ДОСТАВКА 🚁</h2>
-            <p class="delivery__text text">Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа виртуальное кафе с электронным меню, доставкой</p>
+            <div class="delivery__block">
+                <h2 class="delivery__title title">у нАС ЕСТЬ ДОСТАВКА 🚁</h2>
+                <p class="delivery__text text">Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа виртуальное кафе с электронным меню, доставкой</p>
+            </div>
         </div>
     </section>
     <section class="faq container">
@@ -119,7 +143,7 @@
     </section>
     <section class="reviews">
         <div class="container">
-            <h2 class="reviews__titile title">отзывы 💫</h2>
+            <h2 class="reviews__title title">отзывы 💫</h2>
             <p class="reviews__text text">Скачивайте приложение и создавайте свое виртуальное афеэлектронным меню, доставкой и возможностью предзаказа:</p>
             <div class="things">
                 <div class="things__item circle"></div>
@@ -131,30 +155,32 @@
         </div>
     </section>
     <section class="conection container">
-        <h2 class="cnection__title title">Связаться с нами 💛</h2>
-        <p class="conection__text text">Вы можете связаться с нами по&#160;любому&#160;вопросу</p>
-        <form action="" method="post" class="conection__form">
-            <input type="text" placeholder="Ваше Имя">
-            <input type="tel" name="" id="" placeholder="Телефон">
-            <input type="email" name="" id="" placeholder="E-mail">
-            <button type="submit" class="conection__send">ОТПРАВИТЬ</button>
-        </form>
-        <p class="conection__agree">Нажимая на кнопку "Отправить" вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+        <div class="conection__block">
+            <h2 class="conection__title title">Связаться с нами 💛</h2>
+            <p class="conection__text text">Вы можете связаться с нами по&#160;любому&#160;вопросу</p>
+            <form action="" method="post" class="conection__form">
+                <input type="text" placeholder="Ваше Имя">
+                <input type="tel" name="" id="" placeholder="Телефон">
+                <input type="email" name="" id="" placeholder="E-mail">
+                <button type="submit" class="conection__send">ОТПРАВИТЬ</button>
+            </form>
+            <p class="conection__agree">Нажимая на кнопку "Отправить" вы соглашаетесь с&#160;<a href="#">политикой конфиденциальности</a></p>
+        </div>
     </section>
     <footer class="footer">
         <ul class="nav container">
             <li class="nav__item nav__cycle svg-btn"></li>
-            <li class="nav__item tell svg-btn">
-                <a href="#" class="header__link tell svg-btn"></a>
+            <li class="nav__item">
+                <a href="#" class="nav__link tell svg-btn"></a>
             </li>
-            <li class="nav__item mail svg-btn">
-                <a href="#" class="header__link mail svg-btn"></a>
+            <li class="nav__item">
+                <a href="#" class="nav__link mail svg-btn"></a>
             </li>
-            <li class="nav__item login svg-btn">
-                <a href="#" class="header__link login svg-btn"></a>
+            <li class="nav__item">
+                <a href="#" class="nav__link login svg-btn"><span>Войти</span></a>
             </li>
-            <li class="nav__item partner svg-btn">
-                <a href="#" class="header__link partner svg-btn"></a>
+            <li class="nav__item">
+                <a href="#" class="nav__link partner svg-btn"><span>Стать партнером</span></a>
             </li>
         </ul>
     </footer>
