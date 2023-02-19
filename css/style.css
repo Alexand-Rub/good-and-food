@@ -351,27 +351,30 @@ p {
 .faq__btn::after {
     content: '';
     position: absolute;
-    top: 4px;
+    top: 50%;
     right: 4px;
     width: 24px;
     height: 24px;
+    transform: translateY(-50%);
     background-image: url('../img/faq-arrow.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: transform 1s ease-in-out;
 }
 
 .faq__question_open .faq__btn::after {
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(50%);
 }
 
 .faq__desk {
     height: 0;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .faq__question_open .faq__desk {
-    height: auto;
+    height: 88px;
 }
 
 .faq__answer {
@@ -1139,7 +1142,7 @@ p {
     }
 
     .social {
-        padding-top: 280px;
+        padding-top: 120px;
     }
 
     .download {
